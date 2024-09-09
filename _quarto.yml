@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Thesis"
+  author: "Tomas Kontrimas"
+  date: "9/6/2024"
+  chapters:
+    - index.qmd
+    - abstract_en.qmd
+    - abstract_de.qmd
+    - introduction.qmd
+    - cosmic_particles.qmd
+    - icecube.qmd
+    - software.qmd
+    - improved_ps.qmd
+    - seyferts.qmd
+    - extended_ps.qmd
+    - conclusion.qmd
+    - acknowledgements.qmd
+    - references.qmd
+
+  comments: 
+    hypothesis:
+      theme: classic
+      openSidebar: false
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    anchor-sections: true
+  pdf:
+    documentclass: scrreprt

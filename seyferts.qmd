@@ -1,0 +1,17 @@
+# Seyferts
+
+## seyfert neutrino connection
+
+## core-corona model
+
+## BASS catalog
+
+### swift
+
+### nustar?
+
+## PS methods, stacking
+
+## performance plots. Biases, sens, dp
+
+## results
