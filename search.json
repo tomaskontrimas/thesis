@@ -1,0 +1,252 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thesis",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n\nWe know from the first fundamental theorem of calculus that for \\(x\\) in \\([a, b]\\):\n\\[\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).\\]\nblablabla\nbal",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Test section\ntext",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "introduction.html#test-section",
+    "href": "introduction.html#test-section",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "4  Software Packages",
+    "section": "",
+    "text": "4.1 skyllh",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Software Packages</span>"
+    ]
+  },
+  {
+    "objectID": "software.html#skyllh",
+    "href": "software.html#skyllh",
+    "title": "4  Software Packages",
+    "section": "",
+    "text": "4.1.1 stacking\n\n\n4.1.2 Seyfert Flux",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Software Packages</span>"
+    ]
+  },
+  {
+    "objectID": "software.html#p1skyllh",
+    "href": "software.html#p1skyllh",
+    "title": "4  Software Packages",
+    "section": "4.2 p1skyllh",
+    "text": "4.2 p1skyllh",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Software Packages</span>"
+    ]
+  },
+  {
+    "objectID": "software.html#icetray",
+    "href": "software.html#icetray",
+    "title": "4  Software Packages",
+    "section": "4.3 icetray",
+    "text": "4.3 icetray\n\n4.3.1 ml_suite\n\n\n4.3.2 photospline",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Software Packages</span>"
+    ]
+  },
+  {
+    "objectID": "improved_ps.html",
+    "href": "improved_ps.html",
+    "title": "5  Improved Point Source Analysis",
+    "section": "",
+    "text": "5.1 PS likelihood",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "improved_ps.html#observables-reconstruction",
+    "href": "improved_ps.html#observables-reconstruction",
+    "title": "5  Improved Point Source Analysis",
+    "section": "5.2 observables reconstruction",
+    "text": "5.2 observables reconstruction",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "improved_ps.html#kde",
+    "href": "improved_ps.html#kde",
+    "title": "5  Improved Point Source Analysis",
+    "section": "5.3 KDE",
+    "text": "5.3 KDE",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "improved_ps.html#ps-methods-skyscan-catalog-search-binomial-test",
+    "href": "improved_ps.html#ps-methods-skyscan-catalog-search-binomial-test",
+    "title": "5  Improved Point Source Analysis",
+    "section": "5.4 PS methods, skyscan, catalog search, binomial test",
+    "text": "5.4 PS methods, skyscan, catalog search, binomial test",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "improved_ps.html#performance-plots.-biases-sens-dp",
+    "href": "improved_ps.html#performance-plots.-biases-sens-dp",
+    "title": "5  Improved Point Source Analysis",
+    "section": "5.5 performance plots. Biases, sens, dp",
+    "text": "5.5 performance plots. Biases, sens, dp",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "improved_ps.html#results",
+    "href": "improved_ps.html#results",
+    "title": "5  Improved Point Source Analysis",
+    "section": "5.6 results",
+    "text": "5.6 results",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "seyferts.html",
+    "href": "seyferts.html",
+    "title": "6  Seyferts",
+    "section": "",
+    "text": "6.1 seyfert neutrino connection",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
+    ]
+  },
+  {
+    "objectID": "seyferts.html#core-corona-model",
+    "href": "seyferts.html#core-corona-model",
+    "title": "6  Seyferts",
+    "section": "6.2 core-corona model",
+    "text": "6.2 core-corona model",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
+    ]
+  },
+  {
+    "objectID": "seyferts.html#bass-catalog",
+    "href": "seyferts.html#bass-catalog",
+    "title": "6  Seyferts",
+    "section": "6.3 BASS catalog",
+    "text": "6.3 BASS catalog\n\n6.3.1 swift\n\n\n6.3.2 nustar?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
+    ]
+  },
+  {
+    "objectID": "seyferts.html#ps-methods-stacking",
+    "href": "seyferts.html#ps-methods-stacking",
+    "title": "6  Seyferts",
+    "section": "6.4 PS methods, stacking",
+    "text": "6.4 PS methods, stacking",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
+    ]
+  },
+  {
+    "objectID": "seyferts.html#performance-plots.-biases-sens-dp",
+    "href": "seyferts.html#performance-plots.-biases-sens-dp",
+    "title": "6  Seyferts",
+    "section": "6.5 performance plots. Biases, sens, dp",
+    "text": "6.5 performance plots. Biases, sens, dp",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
+    ]
+  },
+  {
+    "objectID": "seyferts.html#results",
+    "href": "seyferts.html#results",
+    "title": "6  Seyferts",
+    "section": "6.6 results",
+    "text": "6.6 results",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
+    ]
+  },
+  {
+    "objectID": "extended_ps.html",
+    "href": "extended_ps.html",
+    "title": "7  Extended Point Source Analysis",
+    "section": "",
+    "text": "7.1 IC79 subselection",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "extended_ps.html#skykde-tool",
+    "href": "extended_ps.html#skykde-tool",
+    "title": "7  Extended Point Source Analysis",
+    "section": "7.2 skykde tool",
+    "text": "7.2 skykde tool",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "extended_ps.html#performance-plots.-biases-sens-dp",
+    "href": "extended_ps.html#performance-plots.-biases-sens-dp",
+    "title": "7  Extended Point Source Analysis",
+    "section": "7.3 performance plots. Biases, sens, dp",
+    "text": "7.3 performance plots. Biases, sens, dp",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "extended_ps.html#results",
+    "href": "extended_ps.html#results",
+    "title": "7  Extended Point Source Analysis",
+    "section": "7.4 Results",
+    "text": "7.4 Results",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "extended_ps.html#future-work",
+    "href": "extended_ps.html#future-work",
+    "title": "7  Extended Point Source Analysis",
+    "section": "7.5 Future work",
+    "text": "7.5 Future work\n\n7.5.1 normalizing flows\n\n\n7.5.2 likelihood free inference",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
