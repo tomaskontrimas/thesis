@@ -4,7 +4,7 @@
 
 ## observables reconstruction
 
-## KDE
+## KDE, BDT
 
 ## PS methods, skyscan, catalog search, binomial test
 

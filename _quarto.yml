@@ -31,5 +31,13 @@ format:
   html:
     theme: cosmo
     anchor-sections: true
+    code-fold: true
+    code-summary: "Show the code"
+    fig-responsive: true
+    fig-cap-location: margin
   pdf:
     documentclass: scrreprt
+    execute:
+      echo: false
+      warning: false
+    fig-cap-location: margin
