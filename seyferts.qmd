@@ -1,8 +1,9 @@
 # Seyferts
 
-## seyfert neutrino connection
 
-## core-corona model
+## Seyferts--neutrino connection
+
+## Core-corona model
 
 ## BASS catalog
 
@@ -10,8 +11,8 @@
 
 ### nustar?
 
-## PS methods, stacking
+## Point source methods: stacking
 
-## performance plots. Biases, sens, dp
+## Analysis performance: biases, sens, dp
 
-## results
+## Results

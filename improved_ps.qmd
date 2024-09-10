@@ -1,13 +1,16 @@
 # Improved Point Source Analysis
 
-## PS likelihood
 
-## observables reconstruction
+## Point source likelihood ratio test
 
-## KDE, BDT
+## Reconstruction of observables
 
-## PS methods, skyscan, catalog search, binomial test
+### BDT
 
-## performance plots. Biases, sens, dp
+### KDE
 
-## results
+## Point source methods: skyscan, catalog search, binomial test
+
+## Analysis performance: biases, sens, dp
+
+## Results

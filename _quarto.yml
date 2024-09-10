@@ -11,7 +11,7 @@ book:
     - abstract_de.qmd
     - introduction.qmd
     - cosmic_particles.qmd
-    - icecube.qmd
+    - detectors.qmd
     - software.qmd
     - improved_ps.qmd
     - seyferts.qmd
@@ -35,6 +35,7 @@ format:
     code-summary: "Show the code"
     fig-responsive: true
     fig-cap-location: margin
+    lightbox: true
   pdf:
     documentclass: scrreprt
     execute:

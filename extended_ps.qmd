@@ -1,10 +1,11 @@
 # Extended Point Source Analysis
 
+
+## Monte-Carlo and KDE improvements
+
 ## IC79 subselection
 
-## skykde tool
-
-## performance plots. Biases, sens, dp
+## Analysis performance: biases, sens, dp
 
 ## Results
 
