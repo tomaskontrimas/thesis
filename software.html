@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./improved_ps.html" rel="next">
-<link href="./icecube.html" rel="prev">
+<link href="./detectors.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -145,13 +145,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./cosmic_particles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Cosmic particles</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">High-Energy Cosmic Particles</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./icecube.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The IceCube Neutrino Observatory</span></span></a>
+  <a href="./detectors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Neutrino Observatories</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -208,14 +208,16 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#skyllh" id="toc-skyllh" class="nav-link active" data-scroll-target="#skyllh"><span class="header-section-number">4.1</span> skyllh</a>
   <ul class="collapse">
-  <li><a href="#stacking" id="toc-stacking" class="nav-link" data-scroll-target="#stacking"><span class="header-section-number">4.1.1</span> stacking</a></li>
-  <li><a href="#seyfert-flux" id="toc-seyfert-flux" class="nav-link" data-scroll-target="#seyfert-flux"><span class="header-section-number">4.1.2</span> Seyfert Flux</a></li>
+  <li><a href="#unbinned-likelihood-ratio" id="toc-unbinned-likelihood-ratio" class="nav-link" data-scroll-target="#unbinned-likelihood-ratio"><span class="header-section-number">4.1.1</span> Unbinned likelihood ratio</a></li>
+  <li><a href="#stacking" id="toc-stacking" class="nav-link" data-scroll-target="#stacking"><span class="header-section-number">4.1.2</span> Stacking</a></li>
+  <li><a href="#custom-flux-models-including-seyfert-flux-model" id="toc-custom-flux-models-including-seyfert-flux-model" class="nav-link" data-scroll-target="#custom-flux-models-including-seyfert-flux-model"><span class="header-section-number">4.1.3</span> Custom flux models, including Seyfert flux model</a></li>
   </ul></li>
   <li><a href="#p1skyllh" id="toc-p1skyllh" class="nav-link" data-scroll-target="#p1skyllh"><span class="header-section-number">4.2</span> p1skyllh</a></li>
-  <li><a href="#icetray" id="toc-icetray" class="nav-link" data-scroll-target="#icetray"><span class="header-section-number">4.3</span> icetray</a>
+  <li><a href="#skykde-tool" id="toc-skykde-tool" class="nav-link" data-scroll-target="#skykde-tool"><span class="header-section-number">4.3</span> skykde tool</a></li>
+  <li><a href="#icetray" id="toc-icetray" class="nav-link" data-scroll-target="#icetray"><span class="header-section-number">4.4</span> icetray</a>
   <ul class="collapse">
-  <li><a href="#ml_suite" id="toc-ml_suite" class="nav-link" data-scroll-target="#ml_suite"><span class="header-section-number">4.3.1</span> ml_suite</a></li>
-  <li><a href="#photospline" id="toc-photospline" class="nav-link" data-scroll-target="#photospline"><span class="header-section-number">4.3.2</span> photospline</a></li>
+  <li><a href="#ml_suite" id="toc-ml_suite" class="nav-link" data-scroll-target="#ml_suite"><span class="header-section-number">4.4.1</span> ml_suite</a></li>
+  <li><a href="#photospline" id="toc-photospline" class="nav-link" data-scroll-target="#photospline"><span class="header-section-number">4.4.2</span> photospline</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -244,23 +246,29 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="skyllh" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="skyllh"><span class="header-section-number">4.1</span> skyllh</h2>
-<section id="stacking" class="level3" data-number="4.1.1">
-<h3 data-number="4.1.1" class="anchored" data-anchor-id="stacking"><span class="header-section-number">4.1.1</span> stacking</h3>
+<section id="unbinned-likelihood-ratio" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="unbinned-likelihood-ratio"><span class="header-section-number">4.1.1</span> Unbinned likelihood ratio</h3>
 </section>
-<section id="seyfert-flux" class="level3" data-number="4.1.2">
-<h3 data-number="4.1.2" class="anchored" data-anchor-id="seyfert-flux"><span class="header-section-number">4.1.2</span> Seyfert Flux</h3>
+<section id="stacking" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="stacking"><span class="header-section-number">4.1.2</span> Stacking</h3>
+</section>
+<section id="custom-flux-models-including-seyfert-flux-model" class="level3" data-number="4.1.3">
+<h3 data-number="4.1.3" class="anchored" data-anchor-id="custom-flux-models-including-seyfert-flux-model"><span class="header-section-number">4.1.3</span> Custom flux models, including Seyfert flux model</h3>
 </section>
 </section>
 <section id="p1skyllh" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="p1skyllh"><span class="header-section-number">4.2</span> p1skyllh</h2>
 </section>
-<section id="icetray" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="icetray"><span class="header-section-number">4.3</span> icetray</h2>
-<section id="ml_suite" class="level3" data-number="4.3.1">
-<h3 data-number="4.3.1" class="anchored" data-anchor-id="ml_suite"><span class="header-section-number">4.3.1</span> ml_suite</h3>
+<section id="skykde-tool" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="skykde-tool"><span class="header-section-number">4.3</span> skykde tool</h2>
 </section>
-<section id="photospline" class="level3" data-number="4.3.2">
-<h3 data-number="4.3.2" class="anchored" data-anchor-id="photospline"><span class="header-section-number">4.3.2</span> photospline</h3>
+<section id="icetray" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="icetray"><span class="header-section-number">4.4</span> icetray</h2>
+<section id="ml_suite" class="level3" data-number="4.4.1">
+<h3 data-number="4.4.1" class="anchored" data-anchor-id="ml_suite"><span class="header-section-number">4.4.1</span> ml_suite</h3>
+</section>
+<section id="photospline" class="level3" data-number="4.4.2">
+<h3 data-number="4.4.2" class="anchored" data-anchor-id="photospline"><span class="header-section-number">4.4.2</span> photospline</h3>
 
 
 </section>
@@ -689,8 +697,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./icecube.html" class="pagination-link" aria-label="The IceCube Neutrino Observatory">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The IceCube Neutrino Observatory</span></span>
+      <a href="./detectors.html" class="pagination-link" aria-label="Neutrino Observatories">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Neutrino Observatories</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

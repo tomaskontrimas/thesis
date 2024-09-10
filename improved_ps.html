@@ -145,13 +145,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./cosmic_particles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Cosmic particles</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">High-Energy Cosmic Particles</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./icecube.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The IceCube Neutrino Observatory</span></span></a>
+  <a href="./detectors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Neutrino Observatories</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -206,12 +206,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ps-likelihood" id="toc-ps-likelihood" class="nav-link active" data-scroll-target="#ps-likelihood"><span class="header-section-number">5.1</span> PS likelihood</a></li>
-  <li><a href="#observables-reconstruction" id="toc-observables-reconstruction" class="nav-link" data-scroll-target="#observables-reconstruction"><span class="header-section-number">5.2</span> observables reconstruction</a></li>
-  <li><a href="#kde-bdt" id="toc-kde-bdt" class="nav-link" data-scroll-target="#kde-bdt"><span class="header-section-number">5.3</span> KDE, BDT</a></li>
-  <li><a href="#ps-methods-skyscan-catalog-search-binomial-test" id="toc-ps-methods-skyscan-catalog-search-binomial-test" class="nav-link" data-scroll-target="#ps-methods-skyscan-catalog-search-binomial-test"><span class="header-section-number">5.4</span> PS methods, skyscan, catalog search, binomial test</a></li>
-  <li><a href="#performance-plots.-biases-sens-dp" id="toc-performance-plots.-biases-sens-dp" class="nav-link" data-scroll-target="#performance-plots.-biases-sens-dp"><span class="header-section-number">5.5</span> performance plots. Biases, sens, dp</a></li>
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">5.6</span> results</a></li>
+  <li><a href="#point-source-likelihood-ratio-test" id="toc-point-source-likelihood-ratio-test" class="nav-link active" data-scroll-target="#point-source-likelihood-ratio-test"><span class="header-section-number">5.1</span> Point source likelihood ratio test</a></li>
+  <li><a href="#reconstruction-of-observables" id="toc-reconstruction-of-observables" class="nav-link" data-scroll-target="#reconstruction-of-observables"><span class="header-section-number">5.2</span> Reconstruction of observables</a>
+  <ul class="collapse">
+  <li><a href="#bdt" id="toc-bdt" class="nav-link" data-scroll-target="#bdt"><span class="header-section-number">5.2.1</span> BDT</a></li>
+  <li><a href="#kde" id="toc-kde" class="nav-link" data-scroll-target="#kde"><span class="header-section-number">5.2.2</span> KDE</a></li>
+  </ul></li>
+  <li><a href="#point-source-methods-skyscan-catalog-search-binomial-test" id="toc-point-source-methods-skyscan-catalog-search-binomial-test" class="nav-link" data-scroll-target="#point-source-methods-skyscan-catalog-search-binomial-test"><span class="header-section-number">5.3</span> Point source methods: skyscan, catalog search, binomial test</a></li>
+  <li><a href="#analysis-performance-biases-sens-dp" id="toc-analysis-performance-biases-sens-dp" class="nav-link" data-scroll-target="#analysis-performance-biases-sens-dp"><span class="header-section-number">5.4</span> Analysis performance: biases, sens, dp</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><span class="header-section-number">5.5</span> Results</a></li>
   </ul>
 </nav>
     </div>
@@ -237,23 +240,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ps-likelihood" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="ps-likelihood"><span class="header-section-number">5.1</span> PS likelihood</h2>
+<section id="point-source-likelihood-ratio-test" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="point-source-likelihood-ratio-test"><span class="header-section-number">5.1</span> Point source likelihood ratio test</h2>
 </section>
-<section id="observables-reconstruction" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="observables-reconstruction"><span class="header-section-number">5.2</span> observables reconstruction</h2>
+<section id="reconstruction-of-observables" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="reconstruction-of-observables"><span class="header-section-number">5.2</span> Reconstruction of observables</h2>
+<section id="bdt" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="bdt"><span class="header-section-number">5.2.1</span> BDT</h3>
 </section>
-<section id="kde-bdt" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="kde-bdt"><span class="header-section-number">5.3</span> KDE, BDT</h2>
+<section id="kde" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="kde"><span class="header-section-number">5.2.2</span> KDE</h3>
 </section>
-<section id="ps-methods-skyscan-catalog-search-binomial-test" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="ps-methods-skyscan-catalog-search-binomial-test"><span class="header-section-number">5.4</span> PS methods, skyscan, catalog search, binomial test</h2>
 </section>
-<section id="performance-plots.-biases-sens-dp" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="performance-plots.-biases-sens-dp"><span class="header-section-number">5.5</span> performance plots. Biases, sens, dp</h2>
+<section id="point-source-methods-skyscan-catalog-search-binomial-test" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="point-source-methods-skyscan-catalog-search-binomial-test"><span class="header-section-number">5.3</span> Point source methods: skyscan, catalog search, binomial test</h2>
 </section>
-<section id="results" class="level2" data-number="5.6">
-<h2 data-number="5.6" class="anchored" data-anchor-id="results"><span class="header-section-number">5.6</span> results</h2>
+<section id="analysis-performance-biases-sens-dp" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="analysis-performance-biases-sens-dp"><span class="header-section-number">5.4</span> Analysis performance: biases, sens, dp</h2>
+</section>
+<section id="results" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="results"><span class="header-section-number">5.5</span> Results</h2>
 
 
 </section>

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Thesis",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n\nWe know from the first fundamental theorem of calculus that for \\(x\\) in \\([a, b]\\):\n\\[\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).\\]\nblablabla\nbal",
+    "text": "Preface",
     "crumbs": [
       "Preface"
     ]
@@ -14,17 +14,7 @@
     "href": "introduction.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "1.1 Test section\ntext",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "introduction.html#test-section",
-    "href": "introduction.html#test-section",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "See Knuth (1984)\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -32,11 +22,71 @@
   {
     "objectID": "cosmic_particles.html",
     "href": "cosmic_particles.html",
-    "title": "2  Cosmic particles",
+    "title": "2  High-Energy Cosmic Particles",
+    "section": "",
+    "text": "2.1 Cosmic rays",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>High-Energy Cosmic Particles</span>"
+    ]
+  },
+  {
+    "objectID": "cosmic_particles.html#cosmic-rays",
+    "href": "cosmic_particles.html#cosmic-rays",
+    "title": "2  High-Energy Cosmic Particles",
     "section": "",
     "text": "Figure 2.1: CRs",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cosmic particles</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>High-Energy Cosmic Particles</span>"
+    ]
+  },
+  {
+    "objectID": "cosmic_particles.html#gamma-rays",
+    "href": "cosmic_particles.html#gamma-rays",
+    "title": "2  High-Energy Cosmic Particles",
+    "section": "2.2 Gamma rays",
+    "text": "2.2 Gamma rays",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>High-Energy Cosmic Particles</span>"
+    ]
+  },
+  {
+    "objectID": "cosmic_particles.html#neutrinos",
+    "href": "cosmic_particles.html#neutrinos",
+    "title": "2  High-Energy Cosmic Particles",
+    "section": "2.3 Neutrinos",
+    "text": "2.3 Neutrinos",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>High-Energy Cosmic Particles</span>"
+    ]
+  },
+  {
+    "objectID": "cosmic_particles.html#multi-messenger-astronomy",
+    "href": "cosmic_particles.html#multi-messenger-astronomy",
+    "title": "2  High-Energy Cosmic Particles",
+    "section": "2.4 Multi messenger astronomy",
+    "text": "2.4 Multi messenger astronomy",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>High-Energy Cosmic Particles</span>"
+    ]
+  },
+  {
+    "objectID": "detectors.html",
+    "href": "detectors.html",
+    "title": "3  Neutrino Observatories",
+    "section": "",
+    "text": "3.1 The IceCube Neutrino Observatory",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Neutrino Observatories</span>"
+    ]
+  },
+  {
+    "objectID": "detectors.html#the-pacific-ocean-neutrino-experiment-p-one",
+    "href": "detectors.html#the-pacific-ocean-neutrino-experiment-p-one",
+    "title": "3  Neutrino Observatories",
+    "section": "3.2 The Pacific Ocean Neutrino Experiment (P-ONE)",
+    "text": "3.2 The Pacific Ocean Neutrino Experiment (P-ONE)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Neutrino Observatories</span>"
     ]
   },
   {
@@ -54,7 +104,7 @@
     "href": "software.html#skyllh",
     "title": "4  Software Packages",
     "section": "",
-    "text": "4.1.1 stacking\n\n\n4.1.2 Seyfert Flux",
+    "text": "4.1.1 Unbinned likelihood ratio\n\n\n4.1.2 Stacking\n\n\n4.1.3 Custom flux models, including Seyfert flux model",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Software Packages</span>"
     ]
@@ -70,11 +120,21 @@
     ]
   },
   {
+    "objectID": "software.html#skykde-tool",
+    "href": "software.html#skykde-tool",
+    "title": "4  Software Packages",
+    "section": "4.3 skykde tool",
+    "text": "4.3 skykde tool",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Software Packages</span>"
+    ]
+  },
+  {
     "objectID": "software.html#icetray",
     "href": "software.html#icetray",
     "title": "4  Software Packages",
-    "section": "4.3 icetray",
-    "text": "4.3 icetray\n\n4.3.1 ml_suite\n\n\n4.3.2 photospline",
+    "section": "4.4 icetray",
+    "text": "4.4 icetray\n\n4.4.1 ml_suite\n\n\n4.4.2 photospline",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Software Packages</span>"
     ]
@@ -84,47 +144,37 @@
     "href": "improved_ps.html",
     "title": "5  Improved Point Source Analysis",
     "section": "",
-    "text": "5.1 PS likelihood",
+    "text": "5.1 Point source likelihood ratio test",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
     ]
   },
   {
-    "objectID": "improved_ps.html#observables-reconstruction",
-    "href": "improved_ps.html#observables-reconstruction",
+    "objectID": "improved_ps.html#reconstruction-of-observables",
+    "href": "improved_ps.html#reconstruction-of-observables",
     "title": "5  Improved Point Source Analysis",
-    "section": "5.2 observables reconstruction",
-    "text": "5.2 observables reconstruction",
+    "section": "5.2 Reconstruction of observables",
+    "text": "5.2 Reconstruction of observables\n\n5.2.1 BDT\n\n\n5.2.2 KDE",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
     ]
   },
   {
-    "objectID": "improved_ps.html#kde-bdt",
-    "href": "improved_ps.html#kde-bdt",
+    "objectID": "improved_ps.html#point-source-methods-skyscan-catalog-search-binomial-test",
+    "href": "improved_ps.html#point-source-methods-skyscan-catalog-search-binomial-test",
     "title": "5  Improved Point Source Analysis",
-    "section": "5.3 KDE, BDT",
-    "text": "5.3 KDE, BDT",
+    "section": "5.3 Point source methods: skyscan, catalog search, binomial test",
+    "text": "5.3 Point source methods: skyscan, catalog search, binomial test",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
     ]
   },
   {
-    "objectID": "improved_ps.html#ps-methods-skyscan-catalog-search-binomial-test",
-    "href": "improved_ps.html#ps-methods-skyscan-catalog-search-binomial-test",
+    "objectID": "improved_ps.html#analysis-performance-biases-sens-dp",
+    "href": "improved_ps.html#analysis-performance-biases-sens-dp",
     "title": "5  Improved Point Source Analysis",
-    "section": "5.4 PS methods, skyscan, catalog search, binomial test",
-    "text": "5.4 PS methods, skyscan, catalog search, binomial test",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
-    ]
-  },
-  {
-    "objectID": "improved_ps.html#performance-plots.-biases-sens-dp",
-    "href": "improved_ps.html#performance-plots.-biases-sens-dp",
-    "title": "5  Improved Point Source Analysis",
-    "section": "5.5 performance plots. Biases, sens, dp",
-    "text": "5.5 performance plots. Biases, sens, dp",
+    "section": "5.4 Analysis performance: biases, sens, dp",
+    "text": "5.4 Analysis performance: biases, sens, dp",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
     ]
@@ -133,8 +183,8 @@
     "objectID": "improved_ps.html#results",
     "href": "improved_ps.html#results",
     "title": "5  Improved Point Source Analysis",
-    "section": "5.6 results",
-    "text": "5.6 results",
+    "section": "5.5 Results",
+    "text": "5.5 Results",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
     ]
@@ -144,7 +194,7 @@
     "href": "seyferts.html",
     "title": "6  Seyferts",
     "section": "",
-    "text": "6.1 seyfert neutrino connection",
+    "text": "6.1 Seyferts–neutrino connection",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
     ]
@@ -153,8 +203,8 @@
     "objectID": "seyferts.html#core-corona-model",
     "href": "seyferts.html#core-corona-model",
     "title": "6  Seyferts",
-    "section": "6.2 core-corona model",
-    "text": "6.2 core-corona model",
+    "section": "6.2 Core-corona model",
+    "text": "6.2 Core-corona model",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
     ]
@@ -170,21 +220,21 @@
     ]
   },
   {
-    "objectID": "seyferts.html#ps-methods-stacking",
-    "href": "seyferts.html#ps-methods-stacking",
+    "objectID": "seyferts.html#point-source-methods-stacking",
+    "href": "seyferts.html#point-source-methods-stacking",
     "title": "6  Seyferts",
-    "section": "6.4 PS methods, stacking",
-    "text": "6.4 PS methods, stacking",
+    "section": "6.4 Point source methods: stacking",
+    "text": "6.4 Point source methods: stacking",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
     ]
   },
   {
-    "objectID": "seyferts.html#performance-plots.-biases-sens-dp",
-    "href": "seyferts.html#performance-plots.-biases-sens-dp",
+    "objectID": "seyferts.html#analysis-performance-biases-sens-dp",
+    "href": "seyferts.html#analysis-performance-biases-sens-dp",
     "title": "6  Seyferts",
-    "section": "6.5 performance plots. Biases, sens, dp",
-    "text": "6.5 performance plots. Biases, sens, dp",
+    "section": "6.5 Analysis performance: biases, sens, dp",
+    "text": "6.5 Analysis performance: biases, sens, dp",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
     ]
@@ -193,8 +243,8 @@
     "objectID": "seyferts.html#results",
     "href": "seyferts.html#results",
     "title": "6  Seyferts",
-    "section": "6.6 results",
-    "text": "6.6 results",
+    "section": "6.6 Results",
+    "text": "6.6 Results",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Seyferts</span>"
     ]
@@ -204,27 +254,27 @@
     "href": "extended_ps.html",
     "title": "7  Extended Point Source Analysis",
     "section": "",
-    "text": "7.1 IC79 subselection",
+    "text": "7.1 Monte-Carlo and KDE improvements",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
     ]
   },
   {
-    "objectID": "extended_ps.html#skykde-tool",
-    "href": "extended_ps.html#skykde-tool",
+    "objectID": "extended_ps.html#ic79-subselection",
+    "href": "extended_ps.html#ic79-subselection",
     "title": "7  Extended Point Source Analysis",
-    "section": "7.2 skykde tool",
-    "text": "7.2 skykde tool",
+    "section": "7.2 IC79 subselection",
+    "text": "7.2 IC79 subselection",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
     ]
   },
   {
-    "objectID": "extended_ps.html#performance-plots.-biases-sens-dp",
-    "href": "extended_ps.html#performance-plots.-biases-sens-dp",
+    "objectID": "extended_ps.html#analysis-performance-biases-sens-dp",
+    "href": "extended_ps.html#analysis-performance-biases-sens-dp",
     "title": "7  Extended Point Source Analysis",
-    "section": "7.3 performance plots. Biases, sens, dp",
-    "text": "7.3 performance plots. Biases, sens, dp",
+    "section": "7.3 Analysis performance: biases, sens, dp",
+    "text": "7.3 Analysis performance: biases, sens, dp",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Extended Point Source Analysis</span>"
     ]
