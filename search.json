@@ -30,6 +30,16 @@
     ]
   },
   {
+    "objectID": "cosmic_particles.html",
+    "href": "cosmic_particles.html",
+    "title": "2  Cosmic particles",
+    "section": "",
+    "text": "Figure 2.1: CRs",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Cosmic particles</span>"
+    ]
+  },
+  {
     "objectID": "software.html",
     "href": "software.html",
     "title": "4  Software Packages",
@@ -90,11 +100,11 @@
     ]
   },
   {
-    "objectID": "improved_ps.html#kde",
-    "href": "improved_ps.html#kde",
+    "objectID": "improved_ps.html#kde-bdt",
+    "href": "improved_ps.html#kde-bdt",
     "title": "5  Improved Point Source Analysis",
-    "section": "5.3 KDE",
-    "text": "5.3 KDE",
+    "section": "5.3 KDE, BDT",
+    "text": "5.3 KDE, BDT",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Improved Point Source Analysis</span>"
     ]
